@@ -1,0 +1,21 @@
+<testsuite errors="0" failures="0" hostname="yuukiasuna" name="teste.Soma" skipped="0" tests="2" time="0.00083" timestamp="2019-08-01T16:27:07.180112"><testcase classname="teste.Soma" name="Soma de inteiros positivos" status="passed" time="0.00046"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: Soma de inteiros positivos
+    Quando somar "2" e "2" ... passed in 0.000s
+    Então o resultado deve ser "4" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="teste.Soma" name="Soma de inteiros negativos" status="passed" time="0.00037"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenario: Soma de inteiros negativos
+    Quando somar "-3" e "-3" ... passed in 0.000s
+    Então o resultado deve ser "-6" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

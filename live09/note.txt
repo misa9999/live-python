@@ -1,0 +1,94 @@
+-Introdução informal a redes
+
+- Aplicação  4
+- Transporte 3
+- Rede       2
+- Fisica     1
+
+- Fisica:
+"Uma camada de abstração da parte fisica(pinagem, sinais eletricos, ...) cria
+uma interface padrão do protocolo para todas as placas de redes" proto: ARP
+
+- Rede:
+"Dá nome aos bois, relaciona endereços lógicos" Protocolos: IP, ICMP...
+
+- Transporte:
+"Abstração de como os dados vão ser distribuidos" Protocolos: TCP, UDP...
+
+- Aplicação:
+"Abstração de dados gerados por aplicações e que navegam pela rede" Proto: HTTP, SSH...
+
+                       DATA         -> Application
+                UDP     UDP
+                header data         -> Transport
+        IP
+        header      IP data         -> Internet
+Frame                        Frame
+header       Frame data      footer -> Link
+
+
+- Tipos de requisição:
+___________________________________________________________
+VERBO |                   O que faz?
+      |
+GET   |É o método que pede um recurso ao servidor
+POST  |Envia informações para a criação de um novo recurso
+PUT   |Edita as informações de um determinado recurso
+DELETE|Solicita a remoção de um recurso
+___________________________________________________________
+
+
+- Tipos de retorno:
+_______________________________________________________________________________
+Familia de retorno |             O que quer dizer
+_______________________________________________________________________________
+        1xx        |Envia informações para o cliente de que sua requisição foi
+                   |recebida e está sendo processada.
+_______________________________________________________________________________
+        2xx        |Indica que a requisição do cliente foi bem sucedida.
+_______________________________________________________________________________
+        3xx        |Informa a ação adicional que deve ser tomada para completar
+                   |a requisição
+_______________________________________________________________________________
+        4xx        |Avisa que o cliente fez uma requisição que não pode ser
+                   |Atendida.
+_______________________________________________________________________________
+        5xx        |Ocorreu um erro no servidor ao cumprir uma requisição válida.
+_______________________________________________________________________________
+
+
+- Rotas:
+As rotas são o que definem as URLS, por exemplo, quando você precisa pagar uma
+conta, você pode usar: www.banco.com.br/pagamentos. Ou também www.banco.com.br/
+pagamento_de_contas. Isso torna o mapeamento do sistema mais previsível e caso
+os usuários pretendem navegar diretamente aquele lugar do site, podem redirecionar
+seu navegador a rota especifica.
+
+- Rotas estáticas:
+são rotas que não variam e sempre exibem o mesmo comportamento
+
+- Rotas dinâmicas:
+Podem ser "customizáveis". Imagine que você é um usuário administrador do sistema
+www.seusite.com/<usuario>, vamos pensar que cada usuário do seu sistema pode
+usar sua própria página, porém a página renderizada para cada usuário pode
+ser diferente.
+
+- Bottle:
+Bottle é um micro-framework web construído em um único arquivo e que não tem
+dependências de outras bibliotecas.
+
+- Rotas: 
+Requests to function-call mapping with support for clean and dynamic URLs.
+
+- Templates: 
+Fast and pythonic built-in template engine and support for mako, jina2 and 
+cheetah templates
+
+- Utilities: 
+Convenient acess to form data, file uploads, cookies, headers and other 
+HTTP-related metadata.
+
+- Server:
+Built-in HTTP development serve and support for paste, fapws3, bjoern, gae,
+cherrypy or any other WSGI capable HTTP server.
+

@@ -1,0 +1,51 @@
+# O que é uma deque?
+
+- Sequencia mutável
+- Uma generalização entre uma lista/pilha/fila
+- MAAAAAS é uma lista
+    - Como assim?
+
+- Ela é uma lista mais legal que uma lista
+
+# Então no principio, antes de tudo, fez-se a lista
+
+- Sequencia mutável
+- Acessivel por index/slice
+- Aceita resignação em qualquer posição
+- Têm muitos métodos
+- Mas só vamos ver os necessários para entender a deque
+
+# Afinal, o que é uma deque?
+
+- Uma:
+    - lista
+    - pilha
+    - fila
+- isso mesmo, tudo junto
+
+- Você pode:
+	- Adicionar do lado que quiser
+	- Remover do lado que quiser
+	- Definir um tamanho máximo
+	- Rotacionar a lista
+		- Não é uma implementação ciclica
+
+# NAMEDTUPLE #		
+# O que é uma tupla em python?
+
+- Sequencia imutável
+	- Não aceita resignação de novos itens após sua definição
+	
+- Tuplas são acessíveis via index/slice
+
+# Então, o que é uma namedtuple?
+
+- Sequencia imutável
+	- Não aceita resignação de novos itens após sua definição
+	- Os elementos estão acessiveis como atributos
+	
+	n_t = namedtuple('jogador', ['nome','time','camisa'])
+	n_t('Ronaldo', 'Brasil', 9)
+	
+- São acessiveis via index/slice/atributo
+

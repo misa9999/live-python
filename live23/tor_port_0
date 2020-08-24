@@ -1,0 +1,3 @@
+SOCKSPort 9050
+ControlPort 9051
+DataDirectory /home/ryuuki/Desktop/tor/9050

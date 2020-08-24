@@ -1,0 +1,108 @@
+#### Redes Neurais ####
+
+implementação de Perceptron Simples com python e bibliotecas padrão
+
+O que são redes neurais?
+
+-> Trabalho proposto por McCuiloch e Pitts em 1943
+-> Baseada em um neuronio biológico
+
+            pesos 
+                                Neuronios
+                                de saida
+
+Entradas                                Saidas    
+
+                    Neuronios 
+                  intermediarios
+
+#Definições:
+
+-> Lippman (1997): Redes Neurais Artificiais são sistemas que podem adquirir, armazenar e utilizar conhecimento experimentais 
+que podem alcançar boa performance devido a sua densa interconexão entre os nós da rede
+
+-> Conhecidas também por modelos conexionistas, modelos de processamento paralelo destribuido e sistemas neuromorficos;
+
+# Perceptron Simples:
+-> Proposto com Frank Rosenblatt (1958):
+-> Forma mais simples de uma rede neural, pois possui uma única camada;
+-> Resolvem apenas problemas linearmente separáveis;
+-> Utilizada, em geral, para classificação de padrões;
+
+
+-> x = entrada da rede
+-> w = peso sinático associado à entrada
+-> 0 = limiar de ativação (bias)
+-> u = potencial da ativação
+-> g(u) = função da ativação
+-> y = saida da rede
+
+-> O Perceptron Simples atua, traçando retas entre as classes, até conseguir valores de peso que 'separem' todos os pontos
+
+-> O bias(0) serve para aumentar os graus de liberdade, permitindo uma melhor adaptação por parte da rede neural ao conhecimento à ela fornecido
+
+-> Taxa de aprendizagem, um valor entre 0 e 1, diz o quão rápido a rede converge
+
+##### ALGORITMO #####
+
+# Treinamento
+
+# Obter o conjunto de amostras de treinamento {xk}
+# Associar o valor desejado (dk) para cada amostra
+# Iniciar o vetor de pesos [w] com valores aleatórios pequenos
+# Especificar a taxa de aprendizagem {n}
+# Iniciar o contador de épocas (épocas = 0)
+# Repetir instruções até que o erro inexista
+# inicializa o erro <- False:
+# Para todas as amostras de treinamento faça
+# u = wt .xk
+# y = g(u)
+# Se y != d faça:
+#     w <- w + n * (dk) * xk
+#     erro <- True
+#    época <- época + 1
+# Até que erro = False
+
+# Operação (Validação)
+# Obter o conjunto de amostras  para classificação
+# Carregar o vetor de pesos(w), ajustado no treinamento
+# para cada amostrar(x)faça:
+# u = wt * x
+# y = g(u)
+# Verficar saida:
+#    Se y = 0, x < a classe A
+#    se y = 1, < a a classe b
+
+
+### Processo de aprendizagem:
+
+-> Supervisionado: quando é utilizado um agente externo que indica à rede a resposta desejada para o padrão de entrada
+
+-> Não supervisionado: quando não existe um agente externo indicano a resposta desejada para os padrões de entrada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

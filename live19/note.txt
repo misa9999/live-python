@@ -1,0 +1,120 @@
+# O QUE SAO EXPRESSOES REGULARES?
+
+- Método formal de especificar um padrão de texto |.
+- Notação para representar padrões em strings.
+- Composição de símbolos , caracteres e funções especiais, que, agrupados com caracteres
+formam uma expressão.
+
+# HISTORIA
+
+- 1943: Funcionamento dos neorônios
+- 1968: no qed -> ed -> grep
+- 1986: Regex (clang)
+
+
+# CARACTERES [0]
+
+META                    FAZ O QUE?
+___________________________________
+.                       Qualquer caractere
+[]                      Lista de caracteres
+?                       Anterior pode existir ou não
+.*                      Qualquer coisa
+{x}                     Anterior aparece x vezes
+$                       Fim da linha
+
+# CARACTERES [1]
+
+META                    FAZ O QUE?
+___________________________________
++                       Anterior ao menos uma vez
+(xy)                    Cria grupos
+^                       Começo da linha
+\                       Escapa o meta
+|                       OU
+[^]                     Lista negada
+
+# LISTAS    
+
+META                    FAZ O QUE?
+___________________________________
+[0-9] | \d              acha todos os números
+[a-z] | \w              acha todas as letras minúsculas
+[^0-9] | \D             acha tudo que não sejam números
+[^a-z] | \W             acha tudo que não sejam letras
+
+# EXEMPLOS
+
+PADRÃO                    FAZ O QUE?
+___________________________________
+9?[0-9]{4}-[0-9]{4}       Número de telefone ex:8923-9381
+[M|m][i|u|ü]ll?er         Miler, muler, müller, Muler, ...
+(SO|so|So|Os|OS|os)       Buscaria variações para SO ou OS
+
+# PYTHON + REGEX = re
+
+- Objetos:
+    - Um catadão  de funções e constantes.
+- Métodos:
+    - Objetos com regex compiladas e que apresentam alguns métodos.
+
+# OBJETOS [0]
+
+- Compile:
+    - Compila uma expressão  e a aplica a várias strings.
+- Search:
+    - Procura uma expressão em qualquer posição de uma string.
+- Match[0] / FUllmatch[1]:
+    - Procura uma expressão no inicio de uma string (startswith)
+    - Procura uma expressão exatamente igual
+- Split:
+    - Dada uma expressão, fatia os dados.
+
+#  OBJETOS [1]
+
+- FIndall:
+    - Retorna uma lista com todos os matchs encontrados.
+- Finditer:
+    - Retorna um gerador com todos os matchs, cada um sendo um novo objeto de match.
+
+# MÉTODOS 
+
+- search
+- match
+- fullmatch
+- findall/finditer
+- groups
+- pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

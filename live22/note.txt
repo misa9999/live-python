@@ -1,0 +1,79 @@
+# o que sao requests
+
+- Sempre que nosso navegador se comunica com um servidor web a comunicação é
+feita usando o protocolo HTTP que funciona em uma estrutura solicitação-resposta
+(request-response) e requisições são feitas usando verbos e as respostas são
+respondidas por códigos.
+
+# REQUISIÇÕES - VERBOS
+
+Verbo               O que solicita?
+__________________________________
+GET                 Pede um recurso ao servidor
+HEAD                Obtém somente o cabeçalho do recurso (metadados)
+POST                Envia dados para o servidor processar (criar um novo recurso)
+PUT                 Cria ou Edita algum arquivo
+DELETE              Solicita a remoçaõ de um recurso
+
+
+- Tipos de retorno:
+_______________________________________________________________________________
+Familia de retorno |             O que quer dizer
+_______________________________________________________________________________
+        1xx        |Envia informações para o cliente de que sua requisição foi
+                   |recebida e está sendo processada.
+_______________________________________________________________________________
+        2xx        |Indica que a requisição do cliente foi bem sucedida.
+_______________________________________________________________________________
+        3xx        |Informa a ação adicional que deve ser tomada para completar
+                   |a requisição
+_______________________________________________________________________________
+        4xx        |Avisa que o cliente fez uma requisição que não pode ser
+                   |Atendida.
+_______________________________________________________________________________
+        5xx        |Ocorreu um erro no servidor ao cumprir uma requisição válida.
+_______________________________________________________________________________
+
+
+- Why requests?
+
+Como todos sabem o Python tem bibliotecas próprias para fazer requisições web
+como a urllib(1,2,3). O fato de ter 3 opçoes e o request ser padrão, pra mim
+ja diz muita coisa. Não tenho que aprender muita coisa quando as libs mudam
+e a quantidade de código do request comparado as urllibs saõ absurdas.
+
+- Requests é uma biblioteca HTTP elegante e simples para o Python, construida
+para seres humanos.
+
+            Philosophy
+
+            Requests was developed with a few PEP 20 idioms in mind.
+                
+                1. Beautiful is better than ugly.
+                2. Explicit is better than implicit
+                3. Simple is better than complex
+                4. Complex is bette than complicated
+                5. Readability counts.
+
+      .All contributions to Requests should keep these important rules in mind
+
+
+# Sintaxe básica da lib [0]
+
+from requests import get
+
+google = get('http://google.com')
+
+google.status_code # 200
+google.headers # Cabeçalho da resposta
+google.cookies # cookies da requisição
+google.text # Sim, o HTML que vamos usar com bs4
+
+# Sintaxe básica da lib [1]
+ 
+from requests import post
+google = post('http://google.com')
+google.status_code # 405
+google.reason # Método nao permitido
+google.encoding # UTF-8
+google.close # encerra a comunicação'

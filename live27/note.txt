@@ -1,0 +1,42 @@
+# Stream dos requests
+
+Por padrão, quando você faz um request, o body da resposta é baixado imediataente.
+Você pode substituir esse comportamento e adiar o download do corpo de resposta até
+acessar o atributo Response.content com o parâmetro de fluxo.
+
+tarball_url = 'https://github.com/requests/requests/tarball/master'
+r = requests.get(tarball_url, stream=True)
+
+Neste ponto apenas os cabeçalhos de resposta foram baixados e a conexão permanece aberta, permitindo nos assim tornar a recuperação do conteudo condicional.
+
+if int(r.headers['content-length']) < TOO_LONG:
+    content = r.content
+
+# Calendar
+
+Este módulo permite que você publique calendários como o programa Unix cal e fornece funções úteis adicionais relacionadas ao calendário.
+
+O modulo é basicamente reduzido em duas classes(existem mais) e algumas funções com utilidades.
+
+import calendar
+
+cal = calendar.Calendar()
+list(cal.iterweekdays())
+
+cal.monthdayscalendar(2020, 01)
+
+tcal = calendar.TextCalendar()
+
+tcal.formatmonth(2020, 01).split('\n')
+
+tcal = calendar.LocaleTextCalendar(locale='pt_BR.utf8')
+tcal.formatmonth(2020, 01).split('\n')
+
+# Dateutil - rrule
+
+from datetime import datetime
+from dateutil.rrule import rrule, DAILY
+
+for x in rrule(DAILY, count=3, dtstart=datetime.noew()):
+    print(x)
+

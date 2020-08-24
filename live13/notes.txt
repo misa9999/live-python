@@ -1,0 +1,47 @@
+-  Objetos em Python(Uma introdução ao ) -
+
+Todos os objetos em python (e vamos dizer quem tudo são objetos) contém 3 propriedades básicas.
+
+- Identidade - id() 0 obj_1 is obj_2 - IMUTÁVEL
+- Tipo - type() - IMUTÁVEL
+- Valor - MUTÁVEL/IMUTÁVEL - (Referente ao seu tipo)
+
+- Exemplo de tipos mutáveis x imutáveis -
+
+-> MUTÁVEIS <-              -> IMUTÁVEIS <-
+
+- Listas                        Tuplas
+- Dicionários                   Numeros - int, float, complex
+- Conjuntos                     Strings
+                                COnjuntos congelados
+
+-# A função dir()
+- Se chamada sozinha, retorna as variáveis do escopo local.
+- Caso seja chamada com um objeto, retorna os métodos/atributos do objeto chamado.
+
+- De onde vem esses métodos?
+Esse, muitos, métodos são incorporados de um objeto comum em python chamado 'object' e
+eles definme uma interface padrão para que um objeto seja um objeto.
+
+-# Métodos especiais ou dunders
+
+- São métodos invocados (callable) pelo próprio interpretador python para que os objetos
+criados possam seguir/usar os artifícios usados pela própria linguagem.
+
+- Não são questões de contingência para que o objeto manipulado se comporte como um 
+objeto nativo, todas as implementações do python também usam esses métodos (como vimos
+em object (ele é default para objetos nativos também)).
+
+- Tipos de dunders
+
+- Customização básica
+    __new__, __init__, __del__, __str__, __repr__, __bool__, ...
+- Customização de acesso aos atríbutos
+    __getattr__, __getattribute__, __dir__, ...
+- Emulação de objetos invocáveis
+    __call__
+- Emulação de containers
+    __len__,  __getitem__, __setitem__. __contains__, ...
+- Emulação de tipos numéricos
+    __add__, __sub__, __mul__, __div__
+

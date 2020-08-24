@@ -1,0 +1,187 @@
+#### PEP-8 Imports ####
+
+# Os imports em python tem quatro regras simples e bem definidas 
+
+1- Não devemos importar dois módulos na mesma linha
+# -> errado <- #
+import os, sys
+
+# -> certo <- #
+import os
+import sys
+
+2- A ordem dos imports importa, Sim.
+
+a. Primeiro o futuro(__future__)
+b. Depois as bibliotecas padrões
+c. Bibliotecas de terceiros
+d. Suas bibliotecas
+
+# ex #
+# proximas implementações
+import __future__
+
+# biblioteca padrão
+import os
+import sys
+
+# biblioteca de terceiros
+import requests
+import funcy
+
+# bibliotecas proprias
+import minha_lib
+import minha_outra_lib
+
+### deve separa por espaços ###
+
+3- Não se deve importa usando wildcard(*)
+
+# -> errado <- #
+from re import *
+
+# -> certo <- #
+from re import findall
+
+findall(r'\w+', 'eduardo foi a escola')
+# ['eduardo', 'foi', 'a', 'escola']
+
+4- Imports não devem substituir módulos builtin
+
+# ERRADO
+from re import *
+from re import compile
+compile() # Default ou import?
+
+# CERTO 
+import re
+from re import compile as re_compile
+re_compile() # import
+re.compile() # Default
+
+#### PEP-8 Tamanho das linha ####
+
+Toda linha de código deve ter no máximo 80 caracteres. Segundo a pep, alguns
+times usam 100 caracteres, porém o número de caracteres em comentários será 
+mantido em 72 caracteres (Docstrings e comentários)
+
+# ERRADO
+from re impost compile, findall, finditer, fullmatch, match, escape, replace, subn
+
+##### PEP-8 Identação #####
+
+Todo código deve usar espaços no lugar de Tabs. Todo bloco deve ser definido 
+com 4 espaços. *Caso você use TAB, não usar TAB + ESPAÇOS*
+
+##### PEP-8 Identação - agrupamento #####
+
+
+Existem 6 maneiras diferentes de agrupar blocos de código (isso vale para
+listas, tuplas, dicionários, etc....)
+
+# CORRETO 0 - Grade -> the best
+from re import (compile, findall, finditer, fullmatch,
+                match, escape, replace, subn)
+
+# CORRETO 1 - Vertical
+from re import (compile,
+                findall,
+                finditer,
+                fullmatch
+                match,
+                escape,
+                replace,
+                subn)
+
+# CORRETO 2 - alinhamento deslocado 
+from re import \
+    compile, findall, finditer, fulmatch, \
+    match, escape, replace, subn
+
+# CORRETO 3 - alinhamento desloado na vertical
+from re import (
+    compile,
+    findall,
+    finditer,
+    fullmatch,
+    match,
+    escape,
+    replace,
+    subn
+)
+
+# CORRETO 4- grade alinhada
+from re import (
+    compile, findall, finditer, fullmatch.
+    match, escape, replace, subn)
+
+# CORRETO 5- recuo de grade alinha
+from re import (
+    compile, findall, finditer, fullmatch,
+    match, escape, replace, subn
+)
+
+# aligned with opening definites
+foo = long_fuction_name(var_one, var_two,
+                        var_three, var_four)
+
+# more inentation cncluded to distinguish this from the rest
+def long_function_name(
+    var_one, var_two, var_three,
+    var_four)
+
+# Hanging indents should add a level.
+foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+
+   
+my_list = [
+    1, 2, 3,
+    4, 5, 6,
+    ]
+result = some_function_that_takes_arguments(
+    'a', 'b', 'c',
+    'd', 'e', 'f',
+    )
+
+#### PEP-8 Espaços em branco #####
+
+# evite espaços em branco quando:
+
+1- Dentro de parênteses, chaves, ...
+# CERTO
+spam(ham[1]m {eggs: 2})
+
+# ERRADO
+spam( ham[ 1 ], { eggs: 2 } )
+
+2- Entre uma virgula antes de fechar o parêntese
+
+3- Antes de vírgulas, ponto e vírgula e dois pontos
+
+4- Ao menos que o que venha antes seja a abertura de um slice
+
+5- Antes de parênteses
+
+6- Em parâmetros nomeados
+
+
+#### PEP-8 Variáveis ####
+
+1- Constantes devem ter letras maiúsculas
+
+2- Variáveis nunca devem ser 're-declaradas'
+
+
+##### PEP-3107 Anotações de funções ######
+
+Anotações de funções são completamente opcionais. As anotações de funções
+não são mais do que ua forma de associar expressões arbitrárias de Python
+a várias partes de uma função em tempo de compilação
+
+# CERTO 3107
+def xpto(spam: str='eggs', *args: list) -> int:
+    return None
+
+#

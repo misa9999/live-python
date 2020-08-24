@@ -1,0 +1,60 @@
+### BANCO DE DADOS ###
+
+Uma base básica (DML X DDL)
+
+# Linguagem de manipulação de dados (DML)
+
+Insert -> insere dados na tabela
+Update
+Delete
+Select
+
+--> SQL
+
+# Linguagem de definição de dados (DDL)
+
+Create -> cria tabela
+After -> edita um item na tabela
+Drop -> deleta a tabela
+
+
+
+# DDL manipula as tabelas e DML manipula os dados
+
+ID          XPTO        Telefone        Email
+
+1            ryuky       99999-8888      ryuky@xpto.com
+
+
+#### SQLite3 ####
+
+- Uma biblioteca em linguagem C que implementa um banco de dados SQL embutido
+
+- Programas que usam a biblioteca SQLite podem ter acesso a banco de dados
+SQL sem executar um processo SGBD(sistema gerador banco de dados) separado.
+
+- Não é uma biblioteca cliente usada para conectar com um grande servidor  de
+banco de dados, mas sim o próprio servidor.
+
+- A biblioteca SQLite lê e escreve diretamente no arquivo de banco de dados
+no disco.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

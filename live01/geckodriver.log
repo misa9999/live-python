@@ -1,0 +1,79 @@
+1564261589377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Tq839nTDoQpi"
+Gtk-Message: 18:06:29.927: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:06:35.322: Failed to load module "appmenu-gtk-module"
+1564261599468	Marionette	INFO	Listening on port 40137
+1564261599540	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1564261599905	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox-esr/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox-esr/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4446
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2293
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 614))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1564261794647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P02gNp7X6rDg"
+Gtk-Message: 18:09:54.931: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:09:58.423: Failed to load module "appmenu-gtk-module"
+1564261800962	Marionette	INFO	Listening on port 39825
+1564261800990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564261922896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xukZVOXOAu7t"
+Gtk-Message: 18:12:03.179: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:12:07.202: Failed to load module "appmenu-gtk-module"
+1564261930065	Marionette	INFO	Listening on port 44971
+1564261930162	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1564262019563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VVqYCSkhEWYW"
+Gtk-Message: 18:13:39.846: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:13:43.395: Failed to load module "appmenu-gtk-module"
+1564262025875	Marionette	INFO	Listening on port 37319
+1564262025904	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1564262119171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8ioGf8asgy4z"
+Gtk-Message: 18:15:19.482: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:15:23.018: Failed to load module "appmenu-gtk-module"
+1564262125672	Marionette	INFO	Listening on port 45227
+1564262125727	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1564262217791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ML0WExKk5Rzi"
+Gtk-Message: 18:16:58.069: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:17:01.491: Failed to load module "appmenu-gtk-module"
+1564262224133	Marionette	INFO	Listening on port 42855
+1564262224231	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1564262547539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.brI1ynGRogfj"
+Gtk-Message: 18:22:27.970: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:22:32.752: Failed to load module "appmenu-gtk-module"
+1564262556572	Marionette	INFO	Listening on port 34469
+1564262556606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564262645087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aknSeGhlM3nA"
+Gtk-Message: 18:24:05.483: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:24:10.461: Failed to load module "appmenu-gtk-module"
+1564262654033	Marionette	INFO	Listening on port 43343
+1564262654163	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 18:24:20.630: Failed to load module "appmenu-gtk-module"
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1564262854595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FwSi8Ebb5iK3"
+Gtk-Message: 18:27:34.915: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 18:27:38.393: Failed to load module "appmenu-gtk-module"
+1564262860945	Marionette	INFO	Listening on port 38125
+1564262861045	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 18:28:09.841: Failed to load module "appmenu-gtk-module"
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

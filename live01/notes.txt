@@ -1,0 +1,12 @@
+Testando sem frameworks[0]
+
+assert <valor><condição><valor>
+
+assert 3 == 3
+assert 3 > 3, '3 não é maior que 3'
+
+def soma(x, y):
+    return x + y
+
+
+assert soma(2, 3) == 4, '2 + 3 != 5'

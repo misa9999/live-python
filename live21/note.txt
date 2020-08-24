@@ -1,0 +1,49 @@
+# O que é beautifulsoup?
+
+Desde 2004, tem economizado horas ou dias de trabalho de desenvolvedores em 
+projetos de raspagem de dados.
+
+Três coisas tornam o BS poderoso:
+
+- Métodos simples e pythonicos para parsear árvores (html,xml)
+- Converte tudo para unicode (UTF-8)
+- Permite diferentes ferramentas para parsear (lxmx, html5lib, html.parse)
+
+# Porque o beautifulsoup é legal?
+
+- Encontra elementos por tags (a, b, p, div)
+- Combina ela com os dados agrupados com tags (classes, por exemplo)
+- Retorna as buscas em novos objetos BS
+- Corrige falhas no html/xml
+- Transforma as strings em objetos (obj.title)
+- FACILITA A VIDAAAAA
+
+# Sintaxe básica:
+
+from bs4 import Beautifulsoup
+
+page = Beautifulsoup(<string>, <parse>)
+
+page.title # teste
+
+# Encontra a primeira tag 'a' na string
+page.find('a')
+
+# Encontra todas as tag 'p' com uma classe 
+page.find_all('p', class_='<class>')
+
+.find() # busca um elemento
+.find_all() # busca todos os elementos
+.find_parent() # busca um elemento e o bloco
+
+
+
+
+
+
+
+
+
+
+
+

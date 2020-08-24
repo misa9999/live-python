@@ -1,0 +1,387 @@
+1580236469040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelHifcU"
+
+(firefox:14064): Gtk-WARNING **: 15:34:30.843: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:14064): Gtk-WARNING **: 15:34:30.885: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:14064): Gtk-WARNING **: 15:34:30.888: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580236477559	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580236478849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580236478849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580236478850	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580236478851	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:14155): Gtk-WARNING **: 15:34:44.235: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:14155): Gtk-WARNING **: 15:34:44.272: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:14155): Gtk-WARNING **: 15:34:44.273: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:14178): Gtk-WARNING **: 15:34:45.882: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:14178): Gtk-WARNING **: 15:34:45.920: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:14178): Gtk-WARNING **: 15:34:45.920: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:14240): Gtk-WARNING **: 15:34:50.148: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:14240): Gtk-WARNING **: 15:34:50.579: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:14240): Gtk-WARNING **: 15:34:50.579: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580236491964	Marionette	INFO	Listening on port 43409
+1580236492185	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580236582399	Marionette	INFO	Stopped listening on port 43409
+1580236866845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4xTX9h"
+
+(firefox:15497): Gtk-WARNING **: 15:41:09.328: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:15497): Gtk-WARNING **: 15:41:09.363: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:15497): Gtk-WARNING **: 15:41:09.363: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580236875672	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580236876908	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580236876916	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580236876917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580236876917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:15560): Gtk-WARNING **: 15:41:21.288: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:15560): Gtk-WARNING **: 15:41:21.324: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:15560): Gtk-WARNING **: 15:41:21.324: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:15583): Gtk-WARNING **: 15:41:21.980: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:15583): Gtk-WARNING **: 15:41:22.021: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:15583): Gtk-WARNING **: 15:41:22.023: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:15648): Gtk-WARNING **: 15:41:25.849: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:15648): Gtk-WARNING **: 15:41:25.887: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:15648): Gtk-WARNING **: 15:41:25.887: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580236889161	Marionette	INFO	Listening on port 41879
+1580236889277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580236996389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTTK8wV"
+
+(firefox:16086): Gtk-WARNING **: 15:43:16.525: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:16086): Gtk-WARNING **: 15:43:16.615: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:16086): Gtk-WARNING **: 15:43:16.615: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580236998136	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580236998795	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580236998795	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580236998796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580236998797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:16151): Gtk-WARNING **: 15:43:20.992: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:16151): Gtk-WARNING **: 15:43:21.090: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:16151): Gtk-WARNING **: 15:43:21.096: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:16170): Gtk-WARNING **: 15:43:21.911: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:16170): Gtk-WARNING **: 15:43:22.049: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:16170): Gtk-WARNING **: 15:43:22.049: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:16233): Gtk-WARNING **: 15:43:26.417: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:16233): Gtk-WARNING **: 15:43:26.572: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:16233): Gtk-WARNING **: 15:43:26.572: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580237009130	Marionette	INFO	Listening on port 40267
+1580237009202	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1580237392993	Marionette	INFO	Stopped listening on port 40267
+1580237420003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN3x9Y4"
+
+(firefox:18301): Gtk-WARNING **: 15:50:20.094: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:18301): Gtk-WARNING **: 15:50:20.135: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:18301): Gtk-WARNING **: 15:50:20.135: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580237421089	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580237421530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580237421530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580237421531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580237421532	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:18343): Gtk-WARNING **: 15:50:22.945: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:18343): Gtk-WARNING **: 15:50:22.983: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:18343): Gtk-WARNING **: 15:50:22.983: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:18361): Gtk-WARNING **: 15:50:23.467: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:18361): Gtk-WARNING **: 15:50:23.519: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:18361): Gtk-WARNING **: 15:50:23.519: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:18415): Gtk-WARNING **: 15:50:26.009: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:18415): Gtk-WARNING **: 15:50:26.059: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:18415): Gtk-WARNING **: 15:50:26.062: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580237426449	Marionette	INFO	Listening on port 38465
+1580237426661	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com.br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com.br"
+1580238327417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCd7VRg"
+
+(firefox:22448): Gtk-WARNING **: 16:05:27.789: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:22448): Gtk-WARNING **: 16:05:27.851: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:22448): Gtk-WARNING **: 16:05:27.851: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238330245	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580238332368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580238332368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580238332369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580238332369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:22498): Gtk-WARNING **: 16:05:34.080: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:22498): Gtk-WARNING **: 16:05:34.120: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:22498): Gtk-WARNING **: 16:05:34.122: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:22516): Gtk-WARNING **: 16:05:34.547: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:22516): Gtk-WARNING **: 16:05:34.638: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:22516): Gtk-WARNING **: 16:05:34.640: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:22567): Gtk-WARNING **: 16:05:36.601: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:22567): Gtk-WARNING **: 16:05:36.650: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:22567): Gtk-WARNING **: 16:05:36.653: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238338633	Marionette	INFO	Listening on port 36553
+1580238338699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1580238467388	Marionette	INFO	Stopped listening on port 36553
+1580238479739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileu0q5My"
+
+(firefox:23099): Gtk-WARNING **: 16:07:59.825: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:23099): Gtk-WARNING **: 16:07:59.869: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:23099): Gtk-WARNING **: 16:07:59.869: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238480810	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580238481249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580238481249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580238481250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580238481250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:23144): Gtk-WARNING **: 16:08:02.691: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23144): Gtk-WARNING **: 16:08:02.734: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23144): Gtk-WARNING **: 16:08:02.737: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23159): Gtk-WARNING **: 16:08:03.038: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23159): Gtk-WARNING **: 16:08:03.130: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23159): Gtk-WARNING **: 16:08:03.132: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23218): Gtk-WARNING **: 16:08:05.495: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23218): Gtk-WARNING **: 16:08:05.535: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23218): Gtk-WARNING **: 16:08:05.535: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238485935	Marionette	INFO	Listening on port 35211
+1580238485984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580238564581	Marionette	INFO	Stopped listening on port 35211
+1580238570177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYoV7OI"
+
+(firefox:23433): Gtk-WARNING **: 16:09:30.764: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:23433): Gtk-WARNING **: 16:09:30.807: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:23433): Gtk-WARNING **: 16:09:30.811: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238571817	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580238572301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580238572301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580238572302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580238572303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:23480): Gtk-WARNING **: 16:09:33.828: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23480): Gtk-WARNING **: 16:09:33.867: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23480): Gtk-WARNING **: 16:09:33.867: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23498): Gtk-WARNING **: 16:09:34.321: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23498): Gtk-WARNING **: 16:09:34.403: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23498): Gtk-WARNING **: 16:09:34.403: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23551): Gtk-WARNING **: 16:09:36.948: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:23551): Gtk-WARNING **: 16:09:36.987: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:23551): Gtk-WARNING **: 16:09:36.987: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238577473	Marionette	INFO	Listening on port 38851
+1580238577519	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 329: TypeError: this.contentWindow.windowRoot is null
+1580238969787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaqRxw1"
+
+(firefox:24983): Gtk-WARNING **: 16:16:10.392: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:24983): Gtk-WARNING **: 16:16:10.427: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:24983): Gtk-WARNING **: 16:16:10.428: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238971564	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580238972425	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580238972426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580238972426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580238972427	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:25028): Gtk-WARNING **: 16:16:17.138: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25034): Gtk-WARNING **: 16:16:17.139: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25028): Gtk-WARNING **: 16:16:17.174: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25028): Gtk-WARNING **: 16:16:17.174: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25034): Gtk-WARNING **: 16:16:17.181: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25034): Gtk-WARNING **: 16:16:17.183: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580238982968	Marionette	INFO	Listening on port 38131
+1580238983042	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25121): Gtk-WARNING **: 16:16:28.417: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25121): Gtk-WARNING **: 16:16:28.468: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25121): Gtk-WARNING **: 16:16:28.470: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580239199522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZE9BuL"
+
+(firefox:25381): Gtk-WARNING **: 16:20:01.598: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:25381): Gtk-WARNING **: 16:20:01.635: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:25381): Gtk-WARNING **: 16:20:01.635: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580239206697	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580239209741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580239209742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580239209743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580239209744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:25446): Gtk-WARNING **: 16:20:15.266: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25452): Gtk-WARNING **: 16:20:15.274: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25452): Gtk-WARNING **: 16:20:15.346: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25452): Gtk-WARNING **: 16:20:15.349: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25446): Gtk-WARNING **: 16:20:15.378: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25446): Gtk-WARNING **: 16:20:15.378: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25514): Gtk-WARNING **: 16:20:27.131: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:25514): Gtk-WARNING **: 16:20:27.332: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:25514): Gtk-WARNING **: 16:20:27.369: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580239228461	Marionette	INFO	Listening on port 37973
+1580239228993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580239269616	Marionette	INFO	Stopped listening on port 37973
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1580239334178	Marionette	INFO	Stopped listening on port 38131
+1580240457441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6l2Gfs"
+
+(firefox:32516): Gtk-WARNING **: 16:40:59.010: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:32516): Gtk-WARNING **: 16:40:59.044: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:32516): Gtk-WARNING **: 16:40:59.044: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580240465063	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580240466113	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580240466114	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580240466114	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580240466115	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:32574): Gtk-WARNING **: 16:41:10.777: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:32574): Gtk-WARNING **: 16:41:10.816: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:32574): Gtk-WARNING **: 16:41:10.816: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:32600): Gtk-WARNING **: 16:41:12.432: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:32600): Gtk-WARNING **: 16:41:12.475: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:32600): Gtk-WARNING **: 16:41:12.477: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:32636): Gtk-WARNING **: 16:41:15.056: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:32636): Gtk-WARNING **: 16:41:15.092: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:32636): Gtk-WARNING **: 16:41:15.092: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580240478745	Marionette	INFO	Listening on port 40119
+1580240478839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580240481432	Marionette	INFO	Stopped listening on port 40119
+1580240552691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen2EnIn"
+
+(firefox:2594): Gtk-WARNING **: 16:42:32.796: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(firefox:2594): Gtk-WARNING **: 16:42:32.833: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(firefox:2594): Gtk-WARNING **: 16:42:32.833: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580240553792	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580240554254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580240554255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580240554255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580240554256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:2640): Gtk-WARNING **: 16:42:35.701: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:2640): Gtk-WARNING **: 16:42:35.741: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:2640): Gtk-WARNING **: 16:42:35.743: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:2659): Gtk-WARNING **: 16:42:36.069: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:2659): Gtk-WARNING **: 16:42:36.140: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:2659): Gtk-WARNING **: 16:42:36.142: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+
+(/usr/lib/firefox/firefox:2715): Gtk-WARNING **: 16:42:38.944: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:2715): Gtk-WARNING **: 16:42:38.985: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:2715): Gtk-WARNING **: 16:42:38.985: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580240559499	Marionette	INFO	Listening on port 35621
+1580240559628	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+
+(/usr/lib/firefox/firefox:5743): Gtk-WARNING **: 16:46:38.467: Theme parsing error: gtk.css:2281:23: Expected a valid selector
+
+(/usr/lib/firefox/firefox:5743): Gtk-WARNING **: 16:46:38.515: Theme parsing error: gtk.css:11535:3: '/*' in comment block
+
+(/usr/lib/firefox/firefox:5743): Gtk-WARNING **: 16:46:38.517: Theme parsing error: gtk.css:11641:2: '/*' in comment block
+1580240933107	Marionette	INFO	Stopped listening on port 35621

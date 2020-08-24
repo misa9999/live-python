@@ -1,0 +1,45 @@
+# Functor 
+
+Na teoria das categorias, é um mapeamento entre categorias que preserva
+estruturas. Os functores podem ser entendidos como homomorfismos na categoria
+de todas as categorias pequenas (ou seja, a categoria que tem como objetos todas as
+categorias compostas por objetos que são conjuntos).
+
+ou seja:
+associa para caa objeto x em conjunto C um objeto F(x) em um conjunto D
+
+# Lazy evaluation
+
+São retornos (as vezes de funções) que só são computados quando chamados
+
+Comumente são chamados pelo método
+__next__() pela função next()
+
+# MAP
+
+Função com retorno preguiçoso, que dada uma função f(x), aplicada a uma sequencia S,
+retorna uma nova sequencia Lazy da aplicação de f(x) para todos os elementos de S 
+formando assim uma nova sequencia que vamos chamar de Z
+
+Ou seja:
+map(f, S) -> Z => map(lambda x: x*2, [1,2,3]), -> [2,4,6]
+
+OBS: a função (f(x)) só pode receber um unico argumento
+
+
+MAP 
+
+                map                         comp
+List        list(map(func, iter))           [func(x) for x in iter]
+Gen         map(func, iter)                 (func(x) for x in iter)
+Set         set(map(func, iter))            {func(x) for x in iter}
+Dict        dict(map(func, iter))           {func(x):func(y) for x,y in iter}
+
+
+FILTER
+
+                map                         comp
+List        list(filter(func, iter))        [x for x in iter if func(x)]
+Gen         filter(func, iter)              (x for x in iter if func(x)
+Set         set(filter(func, iter))         {x for x in iter if func(x)}
+Dict        dict(filter(func, iter))        {x,y for x,y in iter if func(x) and func(y)}

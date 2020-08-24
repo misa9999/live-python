@@ -1,0 +1,13 @@
+# Porque usar o scrapy
+
+- É um framework com soluçoes para problemas comuns em qualquer parte do processo
+de web scraping: no acesso ao site, na extração dos dados, no armazenamento, etc.
+
+- Rápido e eficiente por usar o Twisted para fazer requisições de forma assincrona,
+mas o programador não precisa lidar com essa complexidade quando usa o Scrapy
+
+# dif entre Scrapy e BeautifulSoup
+
+- O BeautifulSoup apenas extrai dados do HTML
+- O Scrapy tem ferramentas para extrair dados do HTML através de seletores XPath ou CSS
+- É possivel usar o BeautifulSoup com o Scrapy

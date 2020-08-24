@@ -1,0 +1,72 @@
+- Processos (linux) -
+- Estado
+    - Rodando
+    - Esperando
+    - Parado
+    - Zumbi
+
+- Informação de scheduler (-20/+20)
+    - Prioridade
+- PID (identificação do processo)
+    - Um número que o identifica
+
+P1              Fila de processamento
+                    P1 P2 P2 P1         --> cpu
+P2
+
+
+P1(+20)                    Fila de processamento
+            SCHEDULER           P1         --> cpu
+P2(0)
+
+- Paralelismo
+
+P1 -> Fila de processamento -> CPU 0
+
+P2 -> Fila de processamento -> CPU 1
+
+- Paralelismo com concorrência
+
+P1 \
+    ------> Fila de processamento -> CPU 0
+P2 /
+
+
+P3 \
+    ------> Fila de processamento -> CPU 1
+P4 /
+
+-# GIL -> Global Interpreter Lock
+
+- Trava mutuamente excludente (mutex)
+- Impedir que o recurso de multitarefa preemptiva do sistema operacional (não deixar que
+as threads tomem conta do processo pai)
+- Ou seja, Uma Thread por vez (COncorrência)
+
+- Exemplo code (Satkin - 2016)
+numbers = [2139079, 1214759, 1516637, 1852285]
+
+def factorize(number):
+    for i in range(1, number + 1):
+        if number % i == 0:
+            yield i
+
+start = time()
+for number in numbers:
+    list(actorize(number))
+end = time()
+
+print(f'{end-start}')
+
+-# Threads
+threading.Thread()
+- Representa uma atividade que será executada em umfluxo separado
+- Pode ser iniciada sobrescrevendo o método 'run()' ou chamada por um invocável (função ou __call__)
+- Para iniciar uma thread chamamos o método 'start()'
+- (3.3) A thread pode ser um deamon ou não (finalizar quando o processo python é finalizado)
+$métodos 
+- is_alive
+    - Determina se a thread está em atividade ou não
+- join
+    - Bloqueia a thread (não é uma finalização)
+

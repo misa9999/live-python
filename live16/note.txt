@@ -1,0 +1,34 @@
+- import os
+
+Fornece uma interface multiplataforma para interagir com o sistema operacional, ou seja, 
+permite facilitar a interação com o 'shell'. Se quisermos listar, criar, deletar, modificar
+arquivos e diretorios, temos varias funções internas que nos permitem fazer esse tipo
+de operação.
+
+Exemplo:
+
+- listdir -> Lista os arquivos de um diretorio
+- rmdir -> Remove um diretorio
+- walk -> Cria uma relação de todos os arquivos e diretorios presentes no diretorio 
+passado como parâmetro.
+
+- import os.path
+
+Este módulo implementa algumas funções úteis em nomes de caminho e utilização de paths.
+
+Exemplo:
+- exists -> Retorna se o arquivo ou diretorio existe.
+- abspath -> Retorna o caminho absoluto do arquivo
+- join -> Concatena paths para descrever caminhos
+
+- import shutil
+
+O modulo shutil oferece uma série de operações de alto nível em arquivos e coleções de 
+arquivos. Em particular, são fornecidas funções que suportam a cópia e remoção de arquivos.
+
+Exemplo:
+
+- copy -> Copia um arquivo
+- rmtree -> remove uma arvore de diretorios
+- disk usage -> Retorna a capacidade total/livre/usada em bytes do disco a qual o path pertence.
+

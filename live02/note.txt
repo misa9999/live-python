@@ -1,0 +1,46 @@
+Por que testar? 
+
+- Saber como seu código funciona
+- Economizar tempo
+- Melhorar seu código
+- Sem medo
+- "Debugar é dificil, testar é facil"
+
+-# Como funcionam os testes unitários?
+
+                    calculadora
+soma                                            divisão
+
+            subtração               multiplicação
+
+
+- Antes de testar
+
+- Testes são a cara da sua aplicação
+- Se alguém quiser entender o que é feito, pode ler os testes
+- Testar todas as unidades é uma coisa importante
+- Se você tem alguns (+2) testes para a mesma coisa, talvez seja melhor refatorar
+- Quando algo quebra, você sabe exatamente o que quebrou
+- Entregas mais confiáveis
+- A medida em que você escreve mais testes, mais coisas tendem a funcionar e
+o código fica mais limpo (para ambos)
+- Menos bug
+
+-# Unittest
+Assert (Bool)           Unittest
+    ==      ->         assertEqual
+    !=      ->         assertNotEqual
+    >       ->         assertGreater
+    >=      ->         assertGreaterEqual
+    <       ->         assertLess
+    <=      ->         assertLessEqual
+
+
+            Calculadora
+operações                   Memoria
+    |                          |
+soma                           armazenar
+subtração                       limpar
+multiplicação
+divisao
+

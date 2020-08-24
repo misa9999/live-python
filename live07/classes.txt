@@ -1,0 +1,22 @@
+##### CLASSES PARA OBJETOS ####
+
+Atributos: Aquilo que o objeto tem como característica
+
+Métodos: ações que o objeto executa
+
+#### CLASSES PARA TIPOS #####
+
+Atributos: Aquilo que o tipo necessita como definição
+
+Métodos: Possíveis funções embutidas em um tipo de dado
+
+EX: Matriz
+
+Atributos:
+-> Número de linhas
+-> Número de colunas
+-> Valores na Matriz
+
+Métodos
+-> Multiplicação
+-> Soma

@@ -1,0 +1,28 @@
+# O que é o tor?
+
+- Um sistema para garantir anonimidade online;
+- Um grupo de servidores voluntários;
+- Usa o modelo cliente-servidor 
+- Cria rotas alternativas para envio de pacotes pela rede (TCP em essência)
+
+# A EFF
+
+- Organização sem fins lucrativos que defende as liberdade civis no mundo digital
+- Responsáveis pelas maiores ações mundiais relacionadas a internet
+	- Congresso, não venda(internet)
+	- Não deixe o Congresso censurar a internet!
+	- Diga aos legisladores que reformem a Lei de Espionagem
+	- https://act.eff.org/action
+	
+# Como o tor funciona?
+
+User -> Proxy -> example.com(internet)
+
+# Configurando o tor
+
+SOCKSPort 9050
+ControlPort 9051
+DataDirectory /usr/local/etc/tor/9050
+
+tor -f file
+

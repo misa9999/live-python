@@ -1,0 +1,52 @@
+# O que são dicionários [0]
+
+Os dicionários (type_dict) são uma estrutura de dados muito poderosa, não apenas no Python. Eles estão presentes em quase todas as linguagens modernas de alto nível, as vezes chamadas de mapas, hashes ou matrizes associativas.
+
+[1]
+
+Os dicionários são compostos por chaves e valores e podem ser construidos das seguintes formas:
+
+dicionario_1 = ['chave1':'valor1', 'chave2':'valor2']
+dicionario_2 = dict(chave1=valor1, chave2=valor2)
+
+
+[2]
+
+E seus valores podem ser acessados usando as chaves
+
+dicionario_1['chave1']
+dicionario_2['chave2']
+
+
+[3]
+
+Tipos de dados que podem ser chaves:
+
+Na maioria das vezes usamos como chaves uma string, mas, na verdade, podem ser usados qualquer tipo de dados que sejam imutáveis ou hashable
+
+dicionario_2[5] = 7
+
+# Como usamos? [0]
+
+abobrinhas = {'feijao':'arroz', 'macarrao':'molho'}
+abobrinhas.keys()
+abobrinhas.items()
+abobrinhas.values()
+abobrinhas.update('cebola':'salsa')
+
+[1]
+
+digitos = [0, 1, 2, 3, 4]
+strings = ['zero', 'um', 'dois', 'tres', 'quatro']
+
+numeros = {digitos:string for digito, string in zip(sigitos, strings)}
+
+dict((digito, string) for digito, string in zip(digitos, strings))
+
+# __hash__
+
+Mas nem tudo são flores, os objetos hashable em python implementan o método '__hash__' Mas alguns casos, o hash pode nos induzir a erros.
+
+
+
+

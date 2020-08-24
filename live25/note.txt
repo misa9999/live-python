@@ -1,0 +1,17 @@
+# ODs
+
+OD/ODF (Open Document File) são documentos de forato aberto para arquivos de escritório (planilhas, apresentações, texto) que foram padrões desenvolvido pela OASIS (Organization for the advancement of structured information standards) e é um padrão aberto.
+
+# Especificaçoes dos ODF
+
+- .odt e .fodt para documentos de texto (text)
+- .ods e .fods para folhas de cálculo (spreadsheets)
+- .odp e .fodp para apresentações (presentations)
+- .odb para base de dados (database)
+- .odg e .fodg para desenhos vetoriais (graphic)
+- .odf para equações (formula)
+- .ott para modelos de documentos de texto (template text)
+- .ots para modelos de folhas de cálculo (template spreadsheets)
+- .otp para modelos de apresentações (template presentations)
+- .otg para modelos de desenhos vetoriais (template graphic)
+
